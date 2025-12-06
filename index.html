@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #DC143C;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 990px;
+            
+
+        }
+
+        .surprise {
+            background-color: bisque;
+            border: 4px solid #FFD700;
+            border-radius: 15px;
+            width: 70%;
+            max-width: 90%;
+            text-align: center;
+            margin: 1em auto;
+            padding: 1em;
+        }
+
+        .container h1,h2 {
+            text-align: center;
+        }
+
+        .tiles {
+            width: 100%;
+            /* gap: 2em; */
+        }
+
+        .left video {
+            width: 100%;
+            border-radius: 15px;
+            /* border-radius: 10px; */
+        }
+
+        .giftBox img {
+            max-width: 100%;
+        }
+
+
+        .right img {
+            max-width: 100%;
+
+        }
+
+        .center {
+            text-align: left;
+            overflow-wrap: break-word;
+            overflow: auto;
+            line-height: 2em;
+            font-size: 1.15rem;
+
+        }
+
+        .white{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class=" white">Here, this is for you</h1>
+    <div class="giftBox">
+        <img src="assets/images/Gemini_Generated_Image_n0ynin0ynin0ynin.png" alt="gift box" id="gift">
+        <h2 class="white">Open the Box by clicking it</h2>
+    </div>
+    <div class="container">
+        <div class="tiles">
+            <div class="left surprise">
+                <h2>A song for you</h2>
+                <video
+                    src="assets/videos/Tum Ho Toh Full Song (LyricsEnglish Translation)- Saiyaara  Vishal Mishra, Hansika  Ahaan, Aneet.mp4"
+                    controls muted seeking></video>
+            </div>
+            <div class="center surprise">
+                <h2>Few Words Bout you</h2>
+                <p>My Love, My Shri, <em>I Love You </em>and <em>I will love you forever in every lifetime</em> any
+                    amount of time is extremely small with you even 7 janam is a short time with you, I wont be having
+                    too many topics to talk on always but here is the catch this is <em>love</em> my girl because with
+                    you silence feels like a poem, chaos becomes peace, house becomes home when you live with me under
+                    that roof, boring day sounds like sleeping on your chest, stress sounds like um..... time for
+                    <em>stressBalls</em> yk. With you I dont have any measure of time like it was just yesterday I met
+                    you but we are in december, yk on a measuring tape my chest size is 37 something but in reality from
+                    inside its so big you can't imagine because <b><em>I</em> am very proud of <em>you.</em></b> Shri,
+                    no matter who says what about you I want you to know that I your husband will always and forever
+                    will keep beleiving in you will keep trusting you blindfolded, you don't beleive much in yourself ik
+                    that but I do whenever you think bad bout yourself just think that ok they say bad bout me but he my
+                    hubby is saying that I am good (cause you literally are) and I want that after thinking this you
+                    just try to take out what they have said bout you, what they say bout you and EVEN WHAT YOUR BRAINS
+                    SAYS BOUT YOU because brain will say negative by default and you dont selebrate small achievements
+                    so your brain thinks ki ...... but even you know that this is not the case right? so for me
+                    celebrate your small achievements also and and don't listen to any bad things bout you. <b><em>I
+                            LOVE YOU MY PENGUIN MUAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</em></b>
+                </p>
+            </div>
+            <div class="right surprise">
+                <h2>Our pic</h2>
+                <img src="assets/images/Gemini_Generated_Image_moev6jmoev6jmoev.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    const gifter=document.getElementById('gift');
+    
+    const text1=document.getElementsByClassName('container');
+    for(var text2 of text1){
+        text2.style.display="none";
+    }
+        gifter.addEventListener('click',function(){
+            alert("Surprise!!!!!!! I Love You Alot My Shri Ji");
+            gifter.style.display="none";
+            text2.style.display="block";
+
+    })
+</script>
+
+</html>
